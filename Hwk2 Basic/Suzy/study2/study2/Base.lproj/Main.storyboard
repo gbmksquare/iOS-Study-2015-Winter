@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="study2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gZX-ch-KCj">
+                                <rect key="frame" x="140" y="90" width="320" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y7j-ft-7dC">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="3Ib-9k-607"/>
+                                            <constraint firstAttribute="width" constant="150" id="3kU-oV-f5L"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jKT-Ml-87Q">
+                                        <rect key="frame" x="170" y="0.0" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="HsN-NI-AVn"/>
+                                            <constraint firstAttribute="height" constant="150" id="f3v-O3-1Ti"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ok-hC-w0S">
+                                <rect key="frame" x="267" y="300" width="66" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="PICK"/>
+                                <connections>
+                                    <action selector="clickPickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cd9-Yj-nbf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gZX-ch-KCj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3vZ-t1-LkZ"/>
+                            <constraint firstItem="6ok-hC-w0S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G3A-Rk-z5U"/>
+                            <constraint firstItem="6ok-hC-w0S" firstAttribute="top" secondItem="gZX-ch-KCj" secondAttribute="bottom" constant="60" id="Qcw-fd-yZK"/>
+                            <constraint firstItem="gZX-ch-KCj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="TIp-Rh-txB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="PickButton" destination="6ok-hC-w0S" id="eV9-po-cFK"/>
+                        <outlet property="image1" destination="y7j-ft-7dC" id="KBS-tV-dKQ"/>
+                        <outlet property="image2" destination="jKT-Ml-87Q" id="Hjq-B6-UR7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="81"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="homework2_Basic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="IBt-VO-o1X">
+                                <rect key="frame" x="40" y="236" width="520" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xfV-8U-y7F">
+                                        <rect key="frame" x="0.0" y="0.0" width="259" height="128"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6FV-WX-TjK">
+                                        <rect key="frame" x="261" y="0.0" width="259" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="YVs-Fh-U5z"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkn-ty-Es6">
+                                <rect key="frame" x="277" y="394" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUv-YF-1ab"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="IBt-VO-o1X" secondAttribute="trailing" constant="20" id="AgP-DC-n31"/>
+                            <constraint firstItem="Qkn-ty-Es6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D1Y-Fo-0qK"/>
+                            <constraint firstItem="IBt-VO-o1X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aje-h7-8vX"/>
+                            <constraint firstItem="IBt-VO-o1X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="fMT-Dw-WXM"/>
+                            <constraint firstItem="Qkn-ty-Es6" firstAttribute="top" secondItem="IBt-VO-o1X" secondAttribute="bottom" constant="30" id="tiw-y0-fM7"/>
+                            <constraint firstItem="IBt-VO-o1X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wRz-0v-Iro"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="Qkn-ty-Es6" id="xxp-jG-r1s"/>
+                        <outlet property="imageView1" destination="xfV-8U-y7F" id="6hO-7r-Zgh"/>
+                        <outlet property="imageView2" destination="6FV-WX-TjK" id="LaI-aP-fr3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,9 @@
+
+use_frameworks!
+
+target 'gaje2_ad' do
+	pod 'Alamofire', '~> 2.0'
+	pod 'RealmSwift', '~> 0.97'
+	pod 'CTAssetsPickerController',  '~> 3.2.0'
+end
+
