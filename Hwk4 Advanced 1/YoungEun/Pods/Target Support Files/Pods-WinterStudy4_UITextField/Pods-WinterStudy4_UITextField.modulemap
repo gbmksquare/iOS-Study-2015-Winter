@@ -1,0 +1,6 @@
+framework module Pods_WinterStudy4_UITextField {
+  umbrella header "Pods-WinterStudy4_UITextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
