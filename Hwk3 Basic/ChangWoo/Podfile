@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'gaje3' do
+	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+	pod 'Alamofire', '~> 3.1'
+end
+
+target 'gaje3Tests' do
+
+end
+
+target 'gaje3UITests' do
+
+end
+

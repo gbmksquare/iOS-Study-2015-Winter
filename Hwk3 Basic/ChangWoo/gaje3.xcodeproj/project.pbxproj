@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1C9C661C54D46900F80F18 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A350F601C4F1D9000DD58B5 /* MainTableViewController.swift */; };
+		0A1C9C671C54D46D00F80F18 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA72B511C4F4CE600CEF0D5 /* ImageViewController.swift */; };
+		0A350F331C4F1D5F00DD58B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A350F321C4F1D5F00DD58B5 /* AppDelegate.swift */; };
+		0A350F381C4F1D5F00DD58B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A350F361C4F1D5F00DD58B5 /* Main.storyboard */; };
+		0A350F3A1C4F1D5F00DD58B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A350F391C4F1D5F00DD58B5 /* Assets.xcassets */; };
+		0A350F3D1C4F1D5F00DD58B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A350F3B1C4F1D5F00DD58B5 /* LaunchScreen.storyboard */; };
+		0A350F481C4F1D5F00DD58B5 /* gaje3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A350F471C4F1D5F00DD58B5 /* gaje3Tests.swift */; };
+		0A350F531C4F1D6000DD58B5 /* gaje3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A350F521C4F1D6000DD58B5 /* gaje3UITests.swift */; };
+		0A350F611C4F1D9000DD58B5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A350F601C4F1D9000DD58B5 /* MainTableViewController.swift */; };
+		0AA72B521C4F4CE600CEF0D5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA72B511C4F4CE600CEF0D5 /* ImageViewController.swift */; };
+		0FC61B9AFBD3B46BC93137E3 /* Pods_gaje3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A979E0681DF6980F14EDFDE /* Pods_gaje3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A350F441C4F1D5F00DD58B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A350F271C4F1D5F00DD58B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A350F2E1C4F1D5F00DD58B5;
+			remoteInfo = gaje3;
+		};
+		0A350F4F1C4F1D5F00DD58B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A350F271C4F1D5F00DD58B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A350F2E1C4F1D5F00DD58B5;
+			remoteInfo = gaje3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A350F2F1C4F1D5F00DD58B5 /* gaje3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gaje3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A350F321C4F1D5F00DD58B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A350F371C4F1D5F00DD58B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A350F391C4F1D5F00DD58B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A350F3C1C4F1D5F00DD58B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A350F3E1C4F1D5F00DD58B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A350F431C4F1D5F00DD58B5 /* gaje3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaje3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A350F471C4F1D5F00DD58B5 /* gaje3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaje3Tests.swift; sourceTree = "<group>"; };
+		0A350F491C4F1D5F00DD58B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A350F4E1C4F1D5F00DD58B5 /* gaje3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaje3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A350F521C4F1D6000DD58B5 /* gaje3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaje3UITests.swift; sourceTree = "<group>"; };
+		0A350F541C4F1D6000DD58B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A350F601C4F1D9000DD58B5 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		0AA72B511C4F4CE600CEF0D5 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4A979E0681DF6980F14EDFDE /* Pods_gaje3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gaje3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BFAEDC981C2C2A32EBB3D5 /* Pods-gaje3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaje3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gaje3/Pods-gaje3.debug.xcconfig"; sourceTree = "<group>"; };
+		B88DFC510A0CE0A2C8660C21 /* Pods-gaje3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaje3.release.xcconfig"; path = "Pods/Target Support Files/Pods-gaje3/Pods-gaje3.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A350F2C1C4F1D5F00DD58B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC61B9AFBD3B46BC93137E3 /* Pods_gaje3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A350F401C4F1D5F00DD58B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A350F4B1C4F1D5F00DD58B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A350F261C4F1D5F00DD58B5 = {
+			isa = PBXGroup;
+			children = (
+				0A350F311C4F1D5F00DD58B5 /* gaje3 */,
+				0A350F461C4F1D5F00DD58B5 /* gaje3Tests */,
+				0A350F511C4F1D6000DD58B5 /* gaje3UITests */,
+				0A350F301C4F1D5F00DD58B5 /* Products */,
+				AC3F36F06BEE4442FE0B382A /* Pods */,
+				E91D60F48CA5FA5C34BC6874 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A350F301C4F1D5F00DD58B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A350F2F1C4F1D5F00DD58B5 /* gaje3.app */,
+				0A350F431C4F1D5F00DD58B5 /* gaje3Tests.xctest */,
+				0A350F4E1C4F1D5F00DD58B5 /* gaje3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A350F311C4F1D5F00DD58B5 /* gaje3 */ = {
+			isa = PBXGroup;
+			children = (
+				0A350F321C4F1D5F00DD58B5 /* AppDelegate.swift */,
+				0A350F601C4F1D9000DD58B5 /* MainTableViewController.swift */,
+				0AA72B511C4F4CE600CEF0D5 /* ImageViewController.swift */,
+				0A350F361C4F1D5F00DD58B5 /* Main.storyboard */,
+				0A350F391C4F1D5F00DD58B5 /* Assets.xcassets */,
+				0A350F3B1C4F1D5F00DD58B5 /* LaunchScreen.storyboard */,
+				0A350F3E1C4F1D5F00DD58B5 /* Info.plist */,
+			);
+			path = gaje3;
+			sourceTree = "<group>";
+		};
+		0A350F461C4F1D5F00DD58B5 /* gaje3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A350F471C4F1D5F00DD58B5 /* gaje3Tests.swift */,
+				0A350F491C4F1D5F00DD58B5 /* Info.plist */,
+			);
+			path = gaje3Tests;
+			sourceTree = "<group>";
+		};
+		0A350F511C4F1D6000DD58B5 /* gaje3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A350F521C4F1D6000DD58B5 /* gaje3UITests.swift */,
+				0A350F541C4F1D6000DD58B5 /* Info.plist */,
+			);
+			path = gaje3UITests;
+			sourceTree = "<group>";
+		};
+		AC3F36F06BEE4442FE0B382A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2BFAEDC981C2C2A32EBB3D5 /* Pods-gaje3.debug.xcconfig */,
+				B88DFC510A0CE0A2C8660C21 /* Pods-gaje3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E91D60F48CA5FA5C34BC6874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A979E0681DF6980F14EDFDE /* Pods_gaje3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A350F2E1C4F1D5F00DD58B5 /* gaje3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A350F571C4F1D6000DD58B5 /* Build configuration list for PBXNativeTarget "gaje3" */;
+			buildPhases = (
+				9D1BF8D37FC29361B4267CB2 /* Check Pods Manifest.lock */,
+				0A350F2B1C4F1D5F00DD58B5 /* Sources */,
+				0A350F2C1C4F1D5F00DD58B5 /* Frameworks */,
+				0A350F2D1C4F1D5F00DD58B5 /* Resources */,
+				CCC9D12E9E47C6F6DCAF3F1C /* Embed Pods Frameworks */,
+				3EBFEEB45486F7C41F5C413D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gaje3;
+			productName = gaje3;
+			productReference = 0A350F2F1C4F1D5F00DD58B5 /* gaje3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A350F421C4F1D5F00DD58B5 /* gaje3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A350F5A1C4F1D6000DD58B5 /* Build configuration list for PBXNativeTarget "gaje3Tests" */;
+			buildPhases = (
+				0A350F3F1C4F1D5F00DD58B5 /* Sources */,
+				0A350F401C4F1D5F00DD58B5 /* Frameworks */,
+				0A350F411C4F1D5F00DD58B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A350F451C4F1D5F00DD58B5 /* PBXTargetDependency */,
+			);
+			name = gaje3Tests;
+			productName = gaje3Tests;
+			productReference = 0A350F431C4F1D5F00DD58B5 /* gaje3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A350F4D1C4F1D5F00DD58B5 /* gaje3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A350F5D1C4F1D6000DD58B5 /* Build configuration list for PBXNativeTarget "gaje3UITests" */;
+			buildPhases = (
+				0A350F4A1C4F1D5F00DD58B5 /* Sources */,
+				0A350F4B1C4F1D5F00DD58B5 /* Frameworks */,
+				0A350F4C1C4F1D5F00DD58B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A350F501C4F1D5F00DD58B5 /* PBXTargetDependency */,
+			);
+			name = gaje3UITests;
+			productName = gaje3UITests;
+			productReference = 0A350F4E1C4F1D5F00DD58B5 /* gaje3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A350F271C4F1D5F00DD58B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SonChangWoo;
+				TargetAttributes = {
+					0A350F2E1C4F1D5F00DD58B5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0A350F421C4F1D5F00DD58B5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A350F2E1C4F1D5F00DD58B5;
+					};
+					0A350F4D1C4F1D5F00DD58B5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A350F2E1C4F1D5F00DD58B5;
+					};
+				};
+			};
+			buildConfigurationList = 0A350F2A1C4F1D5F00DD58B5 /* Build configuration list for PBXProject "gaje3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A350F261C4F1D5F00DD58B5;
+			productRefGroup = 0A350F301C4F1D5F00DD58B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A350F2E1C4F1D5F00DD58B5 /* gaje3 */,
+				0A350F421C4F1D5F00DD58B5 /* gaje3Tests */,
+				0A350F4D1C4F1D5F00DD58B5 /* gaje3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A350F2D1C4F1D5F00DD58B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A350F3D1C4F1D5F00DD58B5 /* LaunchScreen.storyboard in Resources */,
+				0A350F3A1C4F1D5F00DD58B5 /* Assets.xcassets in Resources */,
+				0A350F381C4F1D5F00DD58B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A350F411C4F1D5F00DD58B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A350F4C1C4F1D5F00DD58B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBFEEB45486F7C41F5C413D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gaje3/Pods-gaje3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1BF8D37FC29361B4267CB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC9D12E9E47C6F6DCAF3F1C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gaje3/Pods-gaje3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A350F2B1C4F1D5F00DD58B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A350F611C4F1D9000DD58B5 /* MainTableViewController.swift in Sources */,
+				0AA72B521C4F4CE600CEF0D5 /* ImageViewController.swift in Sources */,
+				0A350F331C4F1D5F00DD58B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A350F3F1C4F1D5F00DD58B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1C9C661C54D46900F80F18 /* MainTableViewController.swift in Sources */,
+				0A1C9C671C54D46D00F80F18 /* ImageViewController.swift in Sources */,
+				0A350F481C4F1D5F00DD58B5 /* gaje3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A350F4A1C4F1D5F00DD58B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A350F531C4F1D6000DD58B5 /* gaje3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A350F451C4F1D5F00DD58B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A350F2E1C4F1D5F00DD58B5 /* gaje3 */;
+			targetProxy = 0A350F441C4F1D5F00DD58B5 /* PBXContainerItemProxy */;
+		};
+		0A350F501C4F1D5F00DD58B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A350F2E1C4F1D5F00DD58B5 /* gaje3 */;
+			targetProxy = 0A350F4F1C4F1D5F00DD58B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A350F361C4F1D5F00DD58B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A350F371C4F1D5F00DD58B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A350F3B1C4F1D5F00DD58B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A350F3C1C4F1D5F00DD58B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A350F551C4F1D6000DD58B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A350F561C4F1D6000DD58B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A350F581C4F1D6000DD58B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BFAEDC981C2C2A32EBB3D5 /* Pods-gaje3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gaje3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scw422.gaje3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A350F591C4F1D6000DD58B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88DFC510A0CE0A2C8660C21 /* Pods-gaje3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gaje3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scw422.gaje3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A350F5B1C4F1D6000DD58B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gaje3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scw422.gaje3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaje3.app/gaje3";
+			};
+			name = Debug;
+		};
+		0A350F5C1C4F1D6000DD58B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gaje3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scw422.gaje3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaje3.app/gaje3";
+			};
+			name = Release;
+		};
+		0A350F5E1C4F1D6000DD58B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gaje3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scw422.gaje3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gaje3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A350F5F1C4F1D6000DD58B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gaje3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scw422.gaje3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gaje3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A350F2A1C4F1D5F00DD58B5 /* Build configuration list for PBXProject "gaje3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A350F551C4F1D6000DD58B5 /* Debug */,
+				0A350F561C4F1D6000DD58B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A350F571C4F1D6000DD58B5 /* Build configuration list for PBXNativeTarget "gaje3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A350F581C4F1D6000DD58B5 /* Debug */,
+				0A350F591C4F1D6000DD58B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A350F5A1C4F1D6000DD58B5 /* Build configuration list for PBXNativeTarget "gaje3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A350F5B1C4F1D6000DD58B5 /* Debug */,
+				0A350F5C1C4F1D6000DD58B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A350F5D1C4F1D6000DD58B5 /* Build configuration list for PBXNativeTarget "gaje3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A350F5E1C4F1D6000DD58B5 /* Debug */,
+				0A350F5F1C4F1D6000DD58B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A350F271C4F1D5F00DD58B5 /* Project object */;
+}
