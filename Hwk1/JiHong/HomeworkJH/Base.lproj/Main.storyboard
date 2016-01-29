@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeworkJH" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uos-PR-hOv">
+                                <rect key="frame" x="60" y="40" width="480" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="NVc-IF-2hp"/>
+                                    <constraint firstAttribute="height" constant="300" id="rJH-SQ-eCq"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ule-dz-TBZ">
+                                <rect key="frame" x="100" y="360" width="400" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da2-UZ-vgs">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                        <state key="normal" title="Button1"/>
+                                        <connections>
+                                            <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="txf-Ln-yft"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfc-W5-2bx">
+                                        <rect key="frame" x="200" y="0.0" width="200" height="30"/>
+                                        <state key="normal" title="Button2"/>
+                                        <connections>
+                                            <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZl-uj-GRa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4Vv-NJ-Eqe"/>
+                                    <constraint firstAttribute="width" constant="140" id="hLu-nI-vFR"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ule-dz-TBZ" secondAttribute="trailing" constant="80" id="0wp-ZK-TjS"/>
+                            <constraint firstItem="Ule-dz-TBZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="360" id="JM3-M1-uM2"/>
+                            <constraint firstItem="Ule-dz-TBZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="KWM-TG-y9c"/>
+                            <constraint firstItem="uos-PR-hOv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="PYR-92-ZxJ"/>
+                            <constraint firstItem="Ule-dz-TBZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="210" id="TGP-SQ-dme"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ule-dz-TBZ" secondAttribute="trailing" constant="210" id="af8-u5-ewC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uos-PR-hOv" secondAttribute="trailing" constant="40" id="c5o-g6-grg"/>
+                            <constraint firstItem="uos-PR-hOv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="40" id="vLk-cM-OlW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myImage" destination="uos-PR-hOv" id="KGQ-ub-z08"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256" y="288"/>
+        </scene>
+    </scenes>
+</document>
